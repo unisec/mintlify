@@ -28,6 +28,7 @@
             "pages": [
               {
                 "group": "Network",
+                "icon": "network-wired",
                 "pages": [
                   "software/integrations/network/unicontrol"
                 ]
@@ -42,6 +43,7 @@
           {
             "group": "Boards",
             "pages": [
+              "hardware/boards/flexip",
               "hardware/boards/idc",
               "hardware/boards/oidc",
               "hardware/boards/oac"
