@@ -1,68 +1,69 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Unicontrol Labs",
   "feedback": {
     "suggestEdit": true
   },
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#38CAB8",
+    "light": "#38CAB8",
+    "dark": "#38CAB8"
   },
   "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Software",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Para Começar",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "software/introduction",
+              "software/quickstart"            
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Integrações",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              {
+                "group": "Network",
+                "icon": "network-wired",
+                "pages": [
+                  "software/integrations/network/unicontrol"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Hardware",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Boards",
             "pages": [
-              "api-reference/introduction"
+              "hardware/boards/flexip",
+              "hardware/boards/idc",
+              "hardware/boards/oidc",
+              "hardware/boards/oac"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Devices",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "hardware/devices/flexip-climate"
             ]
-          }
+          }          
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentação",
-          "href": "https://docs.unicontrol.me",
-          "icon": "book-open-cover"
+          "anchor": "YouTube",
+          "href": "https://www.youtube.com/@unisec_it",
+          "icon": "youtube"
         },
         {
           "anchor": "Comunidade",
@@ -85,13 +86,13 @@
     "links": [
       {
         "label": "Suporte",
-        "href": "mailto:suporte@unicontrol.me"
+        "href": "https://www.unicontrol.me/suporte"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Quero Comprar",
+      "href": "https://www.unicontrol.me/contato"
     }
   },
   "footer": {
