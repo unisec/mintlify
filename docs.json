@@ -45,7 +45,7 @@
             "pages": [
               "hardware/boards/flexip",
               "hardware/boards/idc",
-              "hardware/boards/oidc",
+              "hardware/boards/iodc",
               "hardware/boards/oac"
             ]
           },
