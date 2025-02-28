@@ -75,8 +75,8 @@
     }
   },
   "logo": {
-    "light": "/logo/unicontrol.png",
-    "dark": "/logo/unicontrol.png"
+    "light": "/logo/unicontrol-light.png",
+    "dark": "/logo/unicontrol-dark.png"
   },
   "navbar": {
     "links": [
