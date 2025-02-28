@@ -89,8 +89,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Quero Comprar",
+      "href": "https://www.unicontrol.me/contato"
     }
   },
   "footer": {
