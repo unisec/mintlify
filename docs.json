@@ -41,7 +41,7 @@
         "tab": "Hardware",
         "groups": [
           {
-            "group": "Boards",
+            "group": "Placas",
             "pages": [
               "hardware/boards/flexip",
               "hardware/boards/idc",
@@ -50,9 +50,15 @@
             ]
           },
           {
-            "group": "Devices",
+            "group": "Dispositivos",
             "pages": [
-              "hardware/devices/flexip-climate"
+              {
+                "group": "Climatização",
+                "icon": "temperature-half",
+                "pages": [
+                  "hardware/devices/flexip-climate"
+                ]
+              }
             ]
           }          
         ]
