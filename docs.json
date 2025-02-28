@@ -57,32 +57,32 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Documentação",
+          "href": "https://docs.unicontrol.me",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "anchor": "Comunidade",
           "href": "https://mintlify.com/community",
           "icon": "slack"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://www.unicontrol.me/blog",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/unicontrol.png",
+    "dark": "/logo/unicontrol.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Suporte",
+        "href": "mailto:suporte@unicontrol.me"
       }
     ],
     "primary": {
@@ -93,9 +93,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/unisec_it",
+      "github": "https://github.com/unicontrol-me",
+      "linkedin": "https://www.linkedin.com/company/unisec-tecnologia",
+      "instagram": "https://www.instagram.com/unisec_it"
     }
   }
 }
