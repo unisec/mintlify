@@ -4,3 +4,68 @@ description: ''
 ---
 
 ![FlexIP](https://imgs.unisec.com.br/unicontrol/FlexIP.png)
+
+A FLEX IP atua como controlador central de uma pré-automação com ele é possível comandar as placas da linha FLEXHOME que são a IDC,IODC e OAC facilmente via barramento 
+I2c, não apenas isso, A FLEX IP tem incluso nela os seguintes componentes como WI-FI,Ethernet,I2C Bus e o Bluetooth graças ao modulo ESP32 que os suporta nativamente, 
+esses recursos podem ser ativados e usados em diferente contextos. E ah claro, não vamos esquecer que o Home Assistant possui integração nativa com os módulos FLEXHOME. 
+
+## GPIO Pinout
+
+| Pin     | Function |
+| ---     | ---      |
+| PIN 1   | GND      |
+| PIN 2   | +5V      |
+| PIN 3   | GND      |
+| PIN 4   | +3V3     |
+| PIN 5   | IO32/SCLB|
+| PIN 6   | IO33/SDAB|
+| PIN 7   | IO14/SCLA|
+| PIN 8   | IO13/SDAA|
+| PIN 9   | IO16     |
+| PIN 10  | IO4      |
+| PIN 11  | IO4      |
+| PIN 12  | IO5      |
+| PIN 13  | EN       |
+| PIN 14  | IO12     |
+| PIN 15  | IO35     |
+| PIN 16  | IO34     |
+| PIN 17  | IO39     |
+| PIN 18  | IO36     |
+
+## Basic Configuration
+
+```yaml
+esphome:
+  name: flexip
+  platform: ESP32
+  board: nodemcu-32s
+
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  clk_mode: GPIO0_IN
+  phy_addr: 1
+
+web_server:
+
+api:
+  reboot_timeout: 0s
+
+ota:
+
+status_led:
+  pin:
+    number: GPIO2
+    inverted: yes
+
+logger:
+  level: DEBUG
+
+output:
+  - platform: gpio
+    id: eth_phy
+    pin:
+      number: 17
+      inverted: yes
+```
