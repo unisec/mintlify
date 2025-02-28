@@ -66,11 +66,6 @@
           "icon": "youtube"
         },
         {
-          "anchor": "Comunidade",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
           "anchor": "Blog",
           "href": "https://www.unicontrol.me/blog",
           "icon": "newspaper"
