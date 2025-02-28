@@ -6,9 +6,9 @@
     "suggestEdit": true
   },
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#38CAB8",
+    "light": "#38CAB8",
+    "dark": "#38CAB8"
   },
   "favicon": "/favicon.ico",
   "navigation": {
